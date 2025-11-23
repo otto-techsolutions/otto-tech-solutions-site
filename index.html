@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTTO Tech Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <span class="logo-main">OTTO</span>
+            <span class="logo-sub">Tech Solutions</span>
+        </div>
+        <nav class="main-nav">
+            <a href="#home">Home</a>
+            <a href="#services">Servicii</a>
+            <a href="#about">Despre</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>IT Support, Gaming & PC Optimization</h1>
+            <p>
+                OTTO Tech Solutions oferă suport IT, optimizare pentru gaming,
+                mentenanță Windows și consultanță tehnică pentru utilizatori acasă
+                sau remote.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn primary">Vezi serviciile</a>
+                <a href="#contact" class="btn secondary">Cere ofertă</a>
+            </div>
+            <p class="hero-tagline">
+                Remote & on-site • Configurare PC • Curățare & optimizare • Gaming ready
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Servicii OTTO Tech Solutions</h2>
+        <p class="section-text">
+            Soluții flexibile pentru utilizatori acasă, gameri și mici afaceri.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Diagnostic & Repair</h3>
+                <p>
+                    Verificare hardware/software, curățare sistem, identificare erori,
+                    temperaturi ridicate, crash-uri sau încetiniri.
+                </p>
+                <ul>
+                    <li>Testare SSD / HDD / RAM</li>
+                    <li>Curățare malware & viruși</li>
+                    <li>Optimizare pornire Windows</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Gaming Optimization</h3>
+                <p>
+                    Scoate maximul din laptop sau PC pentru jocuri fără să-l forțezi inutil.
+                </p>
+                <ul>
+                    <li>Setări Windows pentru gaming</li>
+                    <li>Driver-e actualizate (GPU, chipset etc.)</li>
+                    <li>Recomandări upgrade (SSD, RAM)</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Remote IT Support</h3>
+                <p>
+                    Ajutor la distanță pentru probleme de zi cu zi, fără să fie nevoie
+                    să te deplasezi.
+                </p>
+                <ul>
+                    <li>Instalare programe</li>
+                    <li>Configurare sistem nou</li>
+                    <li>Backup & securitate bază</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+        <h2>Despre OTTO Tech Solutions</h2>
+        <div class="about-content">
+            <p>
+                OTTO Tech Solutions este creat de un tehnician IT cu peste
+                7 ani experiență în România și 11 ani experiență în UK ca
+                Support Worker, obișnuit să explice tehnologia pe înțelesul
+                tuturor.
+            </p>
+            <p>
+                Fără jargon inutil, fără vânzări agresive – doar soluții clare:
+                ce problemă ai, ce opțiuni ai și ce recomandare sinceră există
+                pentru bugetul tău.
+            </p>
+            <p class="about-highlight">
+                Specializare: Windows 10/11, optimizare gaming, depanare laptopuri,
+                consiliere pentru upgrade sau achiziție PC.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="section-text">
+            Completează formularul de mai jos și vei primi răspuns în cel mai scurt timp.
+        </p>
+
+        <form class="contact-form" id="contactForm">
+            <div class="form-row">
+                <label for="name">Nume</label>
+                <input type="text" id="name" placeholder="Numele tău" required />
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="ex: otto@example.com" required />
+            </div>
+            <div class="form-row">
+                <label for="subject">Subiect</label>
+                <input type="text" id="subject" placeholder="Ex: Optimizare gaming" />
+            </div>
+            <div class="form-row">
+                <label for="message">Mesaj</label>
+                <textarea id="message" rows="4" placeholder="Descrie problema / ce ai nevoie" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Trimite mesaj</button>
+            <p class="form-status" id="formStatus"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> OTTO Tech Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
